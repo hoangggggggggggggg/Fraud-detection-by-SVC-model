@@ -1,28 +1,20 @@
 # Credit-Card-Fraud-Detection-Using-Support-Vector-Machine
 
  ## ABSTRACT
-Credit card fraud is a significant problem, with billions of dollars lost each year. Machine learning can be used to detect credit card fraud by identifying patterns that are indicative of fraudulent transactions. Credit card fraud refers to the physical loss of a credit card or the loss of sensitive credit card information. Many machinelearning algorithms can be used for detection. This project proposes to develop a machine-learning model to detect credit card fraud. The model will be trained on a dataset of historical credit card transactions and evaluated on a holdout dataset of unseen transactions.
+Credit card fraud is a major issue, causing billions of dollars in losses annually. Machine learning can help detect credit card fraud by recognizing patterns that indicate fraudulent transactions. Credit card fraud involves the physical loss of a credit card or the compromise of sensitive card information. Various machine learning algorithms can be employed for fraud detection. In this project, a Support Vector Machine (SVM) model will be developed to identify credit card fraud. The model will be trained using a dataset containing historical credit card transactions and tested on a separate dataset of unseen transactions. The performance of the SVM model will be evaluated and compared to determine its effectiveness in detecting fraudulent transactions.
 <br>
-<br>
-<b>Keywords:</b> Credit Card Fraud Detection, Fraud Detection, Fraudulent Transactions, Support Vector Machine.
 
-<br>
 <br>
 
 ## Overview
+Payment fraud continues to pose a significant threat to financial institutions and consumers worldwide. In 2023, global losses from credit and debit card fraud were estimated to reach $32.34 billion, demonstrating a steady increase from $30.06 billion in 2022 (Statista, 2023). In the United States, a report by the Association for Financial Professionals (AFP) indicated that 65% of organizations fell victim to payment fraud in 2022, with 71% of those affected by business email compromise (BEC) schemes, highlighting the increasing sophistication of fraud tactics (AFP, 2023). Similarly, the United Kingdom experienced severe financial losses due to fraud, with over £1.2 billion stolen in 2022, including £726.9 million lost through unauthorized fraud and £485.2 million through authorized push payment (APP) fraud (UK Finance, 2023). These alarming figures emphasize the growing need for intelligent systems capable of detecting and preventing fraudulent transactions.
 
-With the increase of people using credit cards in their daily lives, credit card companies should take special care of the security and safety of the customers. According to (Credit card statistics 2021), the number of people using credit cards worldwide was 2.8 billion in 2019; also, 70those users own a single card. Reports of Credit card fraud in the U.S. rose by 44.7in 2020. There are two kinds of credit card fraud, and the first is having a credit card account opened under your name by an identity thief. Reports of this fraudulent behaviour increased 48to 2020. The second type is when an identity thief uses an existing account you created, usually by stealing the
-information on the credit card. Reports on this type of Fraud increased 9to 2020(Daly, 2021). Those statistics caught We’s attention as the numbers have increased drastically and rapidly throughout the years, which motivated We to resolve the issue analytically by using different machine learning methods to detect fraudulent credit card transactions within numerous transactions.
-
+In response to this challenge, this project proposes the development of a machine learning model using Support Vector Machine (SVM) to detect credit card fraud by identifying anomalies and suspicious patterns in transactional data. By leveraging historical transaction records and applying the SVM classification algorithm, the model aims to improve fraud detection accuracy and contribute to the financial security of consumers and institutions.
 <br>
 <br>
 
 ## Project goals
-
-The main aim of this project is the detection of fraudulent credit card transactions, as it is essential to figure out the fraudulent transactions so that customers do not get charged for the purchase of products that they did not buy. Fraudulent Credit card transactions will be detected with multiple ML techniques. Then, a comparison will be made between the outcomes and results of each method to find the best and most suited model for detecting fraudulent credit card transactions; graphs and numbers will also be provided. In addition, it explores previous literature and different
-techniques used to distinguish Fraud within a dataset.
-
-
+The main aim of this project is to detect fraudulent credit card transactions, as it is crucial to identify fraudulent transactions to prevent customers from being charged for products they did not purchase. Fraudulent transactions will be detected using the machine learning technique Support Vector Machine (SVM). After applying SVM, the model's performance will be evaluated to determine its accuracy and effectiveness in detecting fraudulent transactions. Graphs and numerical data will be provided to illustrate the performance of the SVM model. Additionally, the project explores previous research and techniques used to identify fraud within a dataset.
 <br>
 <br>
 
@@ -36,13 +28,7 @@ of each Attribute, ”Amount” is the amount of each transaction, and the final
 <a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud">kaggle Dataset</a>
 
 <br>
-<br>
-## Future Work 
-There are many ways to improve the model, such as using it on different datasets with various sizes and data types or by changing the data splitting ratio and viewing it from a different algorithm perspective. An example can be merging telecom datato calculate the location of people to have better knowledge of the location of the card owner while his/her credit card is being used; this will ease the detection because if the card owner is in Dubai and a transaction of his card was made in Abu Dhabi, it
-will easily be detected as Fraud.
 
-<br>
 <br>
 
 ## Conclusion
-In conclusion, the main objective of this project was to find the most suited model for creditcard fraud detection in terms of the machine learning techniques chosen for the project. It was met by building the four models and finding the accuracies of them all; the best in terms of accuracy is KNN and Decision Tree, which scored 100 on credit card fraud and increased the customer’s satisfaction as it will provide themwith a better experience and feeling secure.
