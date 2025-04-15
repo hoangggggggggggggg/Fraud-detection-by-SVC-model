@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 credit_card_data = pd.read_csv("C:\\Users\\laptop\\Downloads\\archive_fraud\\creditcard.csv")
 credit_card_data.head()
 credit_card_data.isnull().sum()
@@ -69,5 +68,6 @@ print("Precision SVM:",metrics.precision_score(y_test, y_pred_svm))
 print("Recall SVM:",metrics.recall_score(y_test, y_pred_svm))
 print("F1 Score SVM:",metrics.f1_score(y_test, y_pred_svm))
 print(classification_report(y_test, y_pred_svm))
+
 
 
