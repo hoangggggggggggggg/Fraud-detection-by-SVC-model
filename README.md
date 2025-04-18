@@ -32,3 +32,19 @@ of each Attribute, ”Amount” is the amount of each transaction, and the final
 <br>
 
 ## Conclusion
+This project successfully implemented a Support Vector Machine (SVM) model to detect fraudulent credit card transactions. Using a real-world dataset from Kaggle, the model was trained and tested to identify suspicious patterns and anomalies in transaction behavior.
+
+Despite the significant class imbalance in the dataset, the SVM model performed well, achieving the following evaluation metrics:
+
+Accuracy: 0.97 
+
+Precision: 1.00 
+
+Recall: 0.90
+
+F1-score: 0.95
+
+AUC : 0.9927190688612009
+
+These results demonstrate that SVM is an effective approach for fraud detection, capable of distinguishing between legitimate and fraudulent transactions. Overall, the project highlights the potential of machine learning in enhancing payment security and provides a foundation for future work, including more advanced models, real-time detection systems, and better handling of imbalanced data.
+
